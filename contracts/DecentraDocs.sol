@@ -38,7 +38,8 @@ contract DecentraDocs is Ownable, ReentrancyGuard {
     event DocumentCompleted(uint256 indexed documentId);
     event DocumentRevoked(uint256 indexed documentId);
 
-    // ✅ Constructor now initializes Ownable with msg.sender
+    // ✅ Constructor now initializes Ownable with msg.sender    
+
     constructor() Ownable(msg.sender) {}
 
     function createDocument(
