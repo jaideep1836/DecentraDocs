@@ -69,6 +69,7 @@ contract DecentraDocs is Ownable, ReentrancyGuard {
         
         emit DocumentCreated(documentCounter, msg.sender, documentHash);
     }
+
     
     function signDocument(uint256 documentId) external nonReentrant {
         Document storage doc = documents[documentId];
