@@ -16,6 +16,7 @@ contract DecentraDocs is Ownable, ReentrancyGuard {
         uint256 signatureCount;
         bool isCompleted;
     }
+
     
     struct DocumentView {
         string documentHash;
