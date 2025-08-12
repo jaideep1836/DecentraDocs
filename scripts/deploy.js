@@ -1,5 +1,6 @@
 const { ethers } = require("hardhat");
 
+
 async function main() {
   console.log("Deploying DecentraDocs contract to Core Blockchain...");
 
